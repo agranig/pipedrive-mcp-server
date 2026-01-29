@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "pipedrive-mcp",
+  "name": "pipedrive-mcp-server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

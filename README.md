@@ -32,7 +32,7 @@ This server is specifically designed to help sales teams understand why deals ar
 Clone this repository and build the Docker image:
 
 ```bash
-docker build -t pipedrive-mcp .
+docker build -t pipedrive-mcp-server .
 ```
 
 ### 2. Configure Claude Desktop
@@ -56,7 +56,7 @@ Add the Pipedrive MCP server to your Claude Desktop configuration.
         "--rm",
         "-e",
         "PIPEDRIVE_API_KEY=your_api_key_here",
-        "pipedrive-mcp"
+        "pipedrive-mcp-server"
       ]
     }
   }
@@ -86,4 +86,4 @@ Once connected, you can ask Claude:
 
 ## 📄 License
 
-MIT License. See `package.json` for details.
+MIT License. See `LICENSE` for details.

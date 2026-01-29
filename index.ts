@@ -33,7 +33,7 @@ const usersApiV1 = new pipedriveV1.UsersApi(configV1);
 
 const server = new Server(
   {
-    name: "pipedrive-mcp",
+    name: "pipedrive-mcp-server",
     version: "1.0.0",
   },
   {
